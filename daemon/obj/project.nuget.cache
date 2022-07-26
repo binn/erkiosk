@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "0KpzvS0oO9lSnsEuxSyfHDEOvrVqMdaj10804d6997FIx7eVYv9m6GMHa1ZtthUau4pL8OTNOvmP1wTT2mBuoQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Cooper\\Documents\\Code\\er-kiosk-2\\ERKiosk.Daemon\\ERKiosk.Daemon.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cooper\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Cooper\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Cooper\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Cooper\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Cooper\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Cooper\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
