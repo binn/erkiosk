@@ -114,6 +114,7 @@ function Page2({ settings, locale, state }) {
                         setRelationship("Spouse");
                         state.emergencyContact.relationship = "Spouse";
                     }}
+                    borderWidth='1px'
                 >
                     {lang.emergencyContact.relationshipOptions.spouse}
                 </Button>
@@ -123,6 +124,7 @@ function Page2({ settings, locale, state }) {
                         setRelationship("Parent");
                         state.emergencyContact.relationship = "Parent";
                     }}
+                    borderWidth='1px'
                 >
                     {lang.emergencyContact.relationshipOptions.parent}
                 </Button>
@@ -132,6 +134,7 @@ function Page2({ settings, locale, state }) {
                         setRelationship("Child");
                         state.emergencyContact.relationship = "Child";
                     }}
+                    borderWidth='1px'
                 >
                     {lang.emergencyContact.relationshipOptions.child}
                 </Button>
@@ -141,6 +144,7 @@ function Page2({ settings, locale, state }) {
                         setRelationship("Relative");
                         state.emergencyContact.relationship = "Relative";
                     }}
+                    borderWidth='1px'
                 >
                     {lang.emergencyContact.relationshipOptions.relative}
                 </Button>
@@ -150,6 +154,7 @@ function Page2({ settings, locale, state }) {
                         setRelationship("Other");
                         state.emergencyContact.relationship = "Other";
                     }}
+                    borderWidth='1px'
                 >
                     {lang.emergencyContact.relationshipOptions.other}
                 </Button>
