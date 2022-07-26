@@ -14,7 +14,8 @@ function App({ Component, pageProps }) {
       if (!loading)
         return;
 
-      let endpoint = settings.endpoint;
+      let endpoint = "";
+      let fullscreen = false;
       if (!settings) {
         let res = await fetch('settings.json').catch(e => { });
         if (res === undefined)
@@ -26,11 +27,15 @@ function App({ Component, pageProps }) {
 
         setSettings(settings);
         endpoint = settings.endpoint;
+        fullscreen = settings.fullscreen;
+      } else {
+        endpoint = settings.endpoint;
+        fullscreen = settings.fullscreen;
+      }
 
-        if (settings.fullscreen && !fsEnabled) {
-          document.documentElement.requestFullscreen().catch(e => { });
-          setFsEnabled(true);
-        }
+      if (fullscreen && !fsEnabled) {
+        document.documentElement.requestFullscreen().catch(e => { });
+        setFsEnabled(true);
       }
 
       const connection = new signalR.HubConnectionBuilder()
