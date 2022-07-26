@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cooper\\Documents\\Code\\er-kiosk-2\\ERKiosk.Daemon\\ERKiosk.Daemon.csproj": {}
+    "C:\\Users\\eject\\Downloads\\erkiosk\\daemon\\ERKiosk.Daemon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cooper\\Documents\\Code\\er-kiosk-2\\ERKiosk.Daemon\\ERKiosk.Daemon.csproj": {
+    "C:\\Users\\eject\\Downloads\\erkiosk\\daemon\\ERKiosk.Daemon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cooper\\Documents\\Code\\er-kiosk-2\\ERKiosk.Daemon\\ERKiosk.Daemon.csproj",
+        "projectUniqueName": "C:\\Users\\eject\\Downloads\\erkiosk\\daemon\\ERKiosk.Daemon.csproj",
         "projectName": "ERKiosk.Daemon",
-        "projectPath": "C:\\Users\\Cooper\\Documents\\Code\\er-kiosk-2\\ERKiosk.Daemon\\ERKiosk.Daemon.csproj",
-        "packagesPath": "C:\\Users\\Cooper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cooper\\Documents\\Code\\er-kiosk-2\\ERKiosk.Daemon\\obj\\",
+        "projectPath": "C:\\Users\\eject\\Downloads\\erkiosk\\daemon\\ERKiosk.Daemon.csproj",
+        "packagesPath": "C:\\Users\\eject\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eject\\Downloads\\erkiosk\\daemon\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Cooper\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\eject\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

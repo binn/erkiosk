@@ -1,0 +1,43 @@
+{
+    "brand": "Frisco ER",
+    "endpoint": "http://192.168.0.11:49312/kiosk-hub",
+    "fullscreen": true,
+    "locales": {
+        "es": {
+            "greeting": "Hola"
+        },
+        "en": {
+            "greeting": "Hi",
+            "previous": "Go Back",
+            "next": "Next",
+            "finish": "Finish",
+            "ssn": "Social Security Number",
+            "ssnHelper": "Please enter a valid US Social Security number.",
+            "ssnError": "Invalid Social Security Number.",
+            "phone": "Phone Number",
+            "phoneHelper": "Please enter a valid phone number.",
+            "phoneError": "Invalid Phone Number.",
+            "email": "Email Address",
+            "emailHelper": "Please enter a valid email address.",
+            "emailError": "Invalid Email Address.",
+            "emergencyContact": {
+                "nameHelper": "Please enter the first and last name of your emergency contact.",
+                "lastName": "Last Name",
+                "lastNameError": "Invalid Last Name.",
+                "firstName": "First Name",
+                "firstNameError": "Invalid First Name.",
+                "phone": "Phone Number",
+                "phoneHelper": "Please enter a valid phone number.",
+                "phoneError": "Invalid Phone Number.",
+                "relationship": "Relationship with Individual",
+                "relationshipOptions": {
+                    "spouse": "Spouse",
+                    "parent": "Parent",
+                    "child": "Child",
+                    "relative": "Relative",
+                    "other": "Other"
+                }
+            }
+        }
+    }
+}
