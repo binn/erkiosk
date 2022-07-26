@@ -14,6 +14,7 @@ function App({ Component, pageProps }) {
       if (!loading)
         return;
 
+      let endpoint = settings.endpoint;
       if (!settings) {
         let res = await fetch('settings.json').catch(e => { });
         if (res === undefined)
@@ -24,6 +25,7 @@ function App({ Component, pageProps }) {
           return console.log('Error fetching settings');
 
         setSettings(settings);
+        endpoint = settings.endpoint;
 
         if (settings.fullscreen && !fsEnabled) {
           document.documentElement.requestFullscreen().catch(e => { });
@@ -31,10 +33,8 @@ function App({ Component, pageProps }) {
         }
       }
 
-      // connect to SignalR hub
-      console.log(signalR);
       const connection = new signalR.HubConnectionBuilder()
-        .withUrl("https://96ea-47-185-197-25.ngrok.io/kiosk")
+        .withUrl(endpoint)
         .configureLogging(signalR.LogLevel.Information)
         .build();
 
